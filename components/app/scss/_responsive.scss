@@ -1,0 +1,28 @@
+/**
+ * Responsive
+ */
+
+/*
+ * Tablet
+ * ========================================================================== */
+@media only screen and (max-width: 767px) {
+
+}
+
+
+/*
+ * Mobile
+ * ========================================================================== */
+
+@media only screen and (max-width: 325px) {
+  .specifications,
+  .footer {
+    padding: 5rem 0;
+  }
+
+  .last-news {
+    padding: 5rem 0 0;
+  }
+
+}
+

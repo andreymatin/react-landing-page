@@ -1,0 +1,33 @@
+/**
+ * Navigation
+ */
+
+/*
+ * Main Menu
+ * ========================================================================== */
+
+.main-menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 12rem;
+}
+
+.main-menu-link {
+  font-size: 1.8rem;
+  padding: 0 1.5rem;
+}
+
+@media only screen and (max-width: 325px) {
+  .main-menu {
+    display: block;
+    height: auto;
+    padding: 1.5rem 0;
+  }
+
+  .main-menu-link {
+    display: block;
+    padding: 1.5rem 0;
+  }
+
+}

@@ -1,0 +1,38 @@
+/**
+ * Footer
+ */
+
+.footer {
+  color: #666;
+  padding: 1.5rem 0 5rem;
+}
+
+.footer-menu-item {
+  display: inline-block;
+
+  border-left: 1px solid #ccc;
+
+  &:first-child {
+    border-left: 0;
+  }
+
+  a {
+    color: #666;
+    display: block;
+    padding: 0 1.5rem;
+  }
+}
+
+
+@media only screen and (max-width: 767px) {
+  .footer-menu {
+    margin-top: 2.2rem;
+  }
+
+  .footer {
+    text-align: center;
+    padding: 2.2rem;
+  }
+
+}
+
