@@ -1,0 +1,108 @@
+/**
+ * Typography
+ */
+
+
+
+html,
+body {
+  font-family: $body-font;
+  font-weight: 300;
+}
+
+html {
+  font-size: $basic-font-size;
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow-x: hidden;
+  position: relative;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  width: 100%;
+}
+
+h1, h2, h3 {
+  font-family: $header-font;
+}
+
+h1 {
+  font-size: 6rem;
+  line-height: 6rem;
+}
+
+h2 {
+  font-size: 3rem;
+  line-height: 3rem;
+}
+
+h3 {
+  line-height: 2.4rem;
+  font-size: 1.8rem;
+  text-transform: uppercase;
+}
+
+h1, h3 {
+  font-weight: 700;
+}
+
+button::-moz-focus-inner {
+  border: 0;
+}
+
+html, button, input, select, textarea {
+  color: $text-color;
+}
+
+h1,
+h2,
+h3,
+h4,
+ul,
+li,
+p,
+form {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: $text-color;
+  text-decoration: none;
+
+  &:hover {
+    color: $text-color;
+    text-decoration: underline;
+  }
+}
+
+button {
+  cursor: pointer;
+}
+
+input {
+  &:focus {
+    outline: none;
+  }
+}
+
+strong {
+  font-weight: 700;
+}
+
+img {
+  border: none;
+}
+
+p + p {
+  padding-top: 2.4rem;
+}
+
+// Disable text selection
+@mixin unselectable {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}

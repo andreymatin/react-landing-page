@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { GlobalStyle } from './styles';
-import { Header } from './header';
-import './scss/main.scss';
+import Header from '../header';
+import Nav from '../nav';
 
 export class App extends Component {
   render() {
@@ -9,26 +9,9 @@ export class App extends Component {
     return (
 
       <>
-        <Header />
         <GlobalStyle />
-
-        {/* Navigation Menu */}
-        <nav className="nav-panel">
-          <div className="container">
-            <div className="row">
-              <div className="col">
-
-                <ul className="main-menu">
-                  <li className="main-menu-item"><a className="main-menu-link" href="./index.html">Home</a></li>
-                  <li className="main-menu-item"><a className="main-menu-link" href="./index.html">Buy</a></li>
-                  <li className="main-menu-item"><a className="main-menu-link" href="./index.html">News</a></li>
-                  <li className="main-menu-item"><a className="main-menu-link" href="./index.html">Specification</a></li>
-                </ul>
-
-              </div>
-            </div>
-          </div>
-        </nav>
+        <Header />
+        <Nav />
 
         {/* Intro */}
         <section className="intro">
