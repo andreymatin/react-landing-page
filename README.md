@@ -11,7 +11,7 @@ React Landing Page
 
 - react-helmet
 - node-sass
-- --styled-components--
+- styled-components
 
 ## Landing page + Navigation
 
